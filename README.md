@@ -71,7 +71,7 @@ where `T` is the pulse period, `τ` is the pulse duration, `a` is the amplitude,
 ## Usage
 
 ```javascript
-import iterPulse from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-pulse@deno/mod.js';
+import iterPulse from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-pulse@v0.1.0-deno/mod.js';
 ```
 
 #### iterPulse( \[options] )
@@ -267,7 +267,7 @@ var bool = it.next().done;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import iterPulse from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-pulse@deno/mod.js';
+import iterPulse from 'https://cdn.jsdelivr.net/gh/stdlib-js/simulate-iter-pulse@v0.1.0-deno/mod.js';
 
 // Create an iterator:
 var opts = {
